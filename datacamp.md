@@ -57,9 +57,31 @@ class(my_character)
 ## Vectors
 
 #Vectors = one-dimension arrays that can hold data
-#Create a vector 
+#CREATE A VECTOR 
+numeric_vector <- c(1, 2, 3)
+character_vector <- c("a", "b", "c")
 
+#NAMING A VECTOR
+#Give names to the elements of a vector 
+some_vector <- c("Element1", "Element2")
+names(some_vector) <- c("Name1", "Name2")
+some_vector
 
+#You can create a variable for names for elements of a vector 
+poker_vector <- c(140, -50, 20, -120, 240)
+days_vector <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+names(poker_vector) <- days_vector
+poker_vector
+
+#Calculate totals from vectors
+#if you sum 2 vectors, it takes the element-wise sum
+c(1, 2, 3) + c(4, 5, 6)
+c(1 + 4, 2 + 5, 3 + 6)
+
+#Calculations can be done with variables
+a <- c(1, 2, 3) 
+b <- c(4, 5, 6)
+c <- a + b
 
 
 ## Matrices
