@@ -56,6 +56,11 @@ class(my_character)
 
 ## Vectors
 
+#Vectors = one-dimension arrays that can hold data
+#Create a vector 
+
+
+
 
 ## Matrices
 
