@@ -6,35 +6,53 @@
 
 
 ## Intro to basics
-HOW IT WORKS
+#HOW IT WORKS
 
-Use # to add comments that aren't run as R code
+#Use # to add comments that aren't run as R code
 
-Math W/ R--use R as a calculator 
+#Math W/ R
 
-Addition: + Subtraction: - Multiplication: * Division: / Exponentiation: ^ Modulo: %%
+#Addition: 
+3 + 4
+#Subtraction: 
+5 - 5 
+#Multiplication:
+3 * 5
+#Division: (w/ parentheses)
+(5 + 5) / 2
+#Exponentiation: 
+2^5
+#Modulo:(remainder of division)
+28 %% 6
 
-STORE A VALUE AS A VARIABLE
+#STORE A VALUE AS A VARIABLE
 
-You can assign a value 4 to a variable my_var with the command my_var <- 4
-type name of variable to print to show value 
+#Assign a value 4 to the variable my_var:
+my_var <- 4
 
-BASIC DATA TYPES
+#type name of variable to print to show value 
+my_var
 
-adding different data types together won't work
+#Add 2 variables together 
+my_apples <- 4
+my_oranges <- 4
+my_apples + my_oranges 
 
-Decimal values like 4.5 are called numerics.
-Whole numbers like 4 are called integers. Integers are also numerics.
-Boolean values (TRUE or FALSE) are called logical.
-Text (or string) values are called characters.
+#BASIC DATA TYPES
 
-quotation marks indicate that "some text" is a string
+#adding different data types together won't work
+4 + six
 
-CHECK DATA TYPE
-use class() function to avoid errors 
+#Decimal values like 4.5 are called numerics.
+#Whole numbers like 4 are called integers. Integers are also numerics.
+#Boolean values (TRUE or FALSE) are called logical.
+#Text (or string) values are called characters.
+#quotation marks indicate that "some text" is a string
+my_character <- "universe"
+my_character 
 
-
-
+#CHECK DATA TYPE TO AVOID ERRORS 
+class(my_character) 
 
 ## Vectors
 
